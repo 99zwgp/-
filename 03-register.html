@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>欢迎来到广陵集团</title>
+</head>
+<body>
+    <h3>创建您的专属账号</h3>
+    <table width="300">
+        <!-- 第一行 手机号-->
+        <tr>
+            <td>手机号</td>
+            <td>
+                <form>
+                    <input type="text" name="phonenumber" maxlength="11"/>
+                </form>
+            </td>
+        </tr>
+        <!-- 第二行 密码-->
+        <tr>
+            <td>密码</td>
+            <td>
+                <form>
+                    <input type="password" name="pwd" />
+                </form>
+            </td>
+        </tr>
+        <!-- 第三行 验证码 4位 -->
+        <tr>
+            <td>验证码</td>
+            <td>
+                <form>
+                    <input type="text" name="captcha" maxlength="4" />
+                </form>
+            </td>
+        </tr>
+        <!-- 第四行 提交 -->
+        <tr>
+            <td></td>
+            <td>
+                <form>
+                    <input type="submit" name="submit" value="注册" />
+                </form>
+            </td>
+        </tr>
+        <!-- 第五行 同意注册协议-->
+        <tr>
+            <td><input type="radio" name="agreement" id="agree"></td>
+            <td>
+                <form>
+                    <p>我同意<a href="03-register_agreement.html">注册协议</a></p>
+                </form>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
